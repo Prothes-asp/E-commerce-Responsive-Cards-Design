@@ -1,0 +1,78 @@
+body{
+	background: #000;
+}
+
+.container{
+	margin-top: 110px !important;
+
+}
+
+.card{
+	border:none;
+	outline: none;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.card:hover{
+	transform: translateY(-15px);
+	transition: transform 1s linear;
+}
+
+.text1{
+	font-size: 13px;
+	color: #cbcbcb;
+}
+.info{
+	line-height: 17px;
+}
+.star{
+	color: #fbc02d;
+}
+
+
+/* Card 1 */
+
+.cost span{
+	color: #fb3531;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.shoe{
+	background: #dc3545;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+/* Card 2  */
+.watchcost span{
+	color: #286783;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.watch{
+	background: #286783;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+
+/* Card 3  */
+.tshirtcost span{
+	color: #0012b2;
+	font-weight: bold;
+	font-size:20px;
+}
+
+.tshirt{
+	background: #0012b2;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+
+input[type=submit]{
+	border:none;
+	outline: none;
+}
